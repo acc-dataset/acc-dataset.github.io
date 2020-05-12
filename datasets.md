@@ -7,7 +7,10 @@ The data is collected from a 2019 model year ACC vehicle driven on a stretch of 
 
 The detailed descriptions of data files are as follows:
 1. Processed_CAN_Data_CMDa.csv
-    * some items
+  * This csv file contains evenly sampled data in 5 columns: timestamps (s), follower vehicle velocity (m/s), lead vehicle velocity (m/s), space gap (m), ACC command acceleration (m/s^2)
+
+2. Processed_CAN_Data_a.csv
+  * This csv file contains evenly sampled data in 5 columns: timestamps (s), follower vehicle velocity (m/s), lead vehicle velocity (m/s), space gap (m), ACC vehicle actual acceleration (m/s^2)
 
 The key reference paper for the dataset is:
 - Y. Wang, G. Gunter, M. Nice and D. Work. Estimating adaptive cruise control model parameters from on-board radar units, 2019. <a href="https://arxiv.org/abs/1911.06454">Preprint</a>

@@ -3,8 +3,13 @@ layout: page
 title: Datasets
 ---
 <strong>Two-vehicle ACC driving, Tennessee 2019</strong>
-- Description: The data is collected from a 2019 model year ACC vehicle driven in a highway environment. Velocity, space gap, and relative velocity data are recorded directly from the factory-installed radar unit via the follower vehicle's CAN bus.
-- Publication: Y. Wang, G. Gunter, M. Nice and D. Work. Estimating adaptive cruise control model parameters from on-board radar units, 2019. <a href="https://arxiv.org/abs/1911.06454">Preprint</a>
+- The data is collected from a 2019 model year ACC vehicle driven on a stretch of Interstate-65 for 15 min. The data is collected directly from the factory-installed radar unit via the follower vehicle's CAN bus, and contains velocity, space gap to the lead vehicle, relative velocities and accelerations. The data is preprocessed with an even sampling rate of 10Hz.
+- The detailed descriptions of data files are as follows:
+1. Processed_CAN_Data_CMDa.csv
+* some items
+
+The key reference paper for the dataset is:
+- Y. Wang, G. Gunter, M. Nice and D. Work. Estimating adaptive cruise control model parameters from on-board radar units, 2019. <a href="https://arxiv.org/abs/1911.06454">Preprint</a>
 - <a href="https://vanderbilt.box.com/s/76m0vmlpzoj2059p047yt0jkx3mtyxdp">Download</a>
 
 <strong>Two-vehicle ACC driving, Tennessee 2018</strong>

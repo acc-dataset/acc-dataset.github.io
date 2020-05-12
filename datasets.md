@@ -14,7 +14,7 @@ The detailed descriptions of data files are as follows:
 
 The key reference paper for the dataset is:
 - Y. Wang, G. Gunter, M. Nice and D. Work. Estimating adaptive cruise control model parameters from on-board radar units, 2019. <a href="https://arxiv.org/abs/1911.06454">Preprint</a>
-- <a href="https://vanderbilt.box.com/s/76m0vmlpzoj2059p047yt0jkx3mtyxdp">Download</a>
+<a href="https://vanderbilt.box.com/s/76m0vmlpzoj2059p047yt0jkx3mtyxdp">Download data</a>
 
 <strong>Two-vehicle ACC driving, Tennessee 2018</strong>
 - Description: A set of car following experiments are conducted to collect data from a 2015 luxury electric vehicle equipped with a commercial adaptive cruise control (ACC) system. Velocity, relative velocity, and spacing data collected during the experiments are used to calibrate an optimal velocity relative velocity car following model for both the minimum and maximum following settings.
@@ -28,6 +28,10 @@ The key reference paper for the dataset is:
 - <a href="https://vanderbilt.app.box.com/v/accData">Download two-vehicle test data</a>
 - <a href="https://vanderbilt.app.box.com/v/accData">Download platoon test data</a>
 
+<strong>Urbana 10 car ring road test, 2016</strong>
+This dataset contains trajectory and fuel consumption data from a series of 10 vehicle ring road tests as an extension to the Sugiyama et al. (2008) experiments. The dataset contains video data, the extracted trajectories from the camera, the smoothed trajectories, and the OBD-II logs from each equipped vehicle containing fuel consumption information.
+
+<a href="https://uofi.box.com/v/RingRoadTRB">Download</a>
 
 <strong>Ring-road experiment with one autnomous vehicle, Arizona 2016</strong>
 - Description: The data is collected through the experiments on a circular track with a fleet of 22 vehicles, one of which is a self-driving capable Cognitive and Autonomous Test (CAT) Vehicle.
